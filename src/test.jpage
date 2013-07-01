@@ -1,0 +1,45 @@
+TreeMap<Integer,String> map=new TreeMap<Integer,String>();
+map.put(1,"1");
+map.put(3,"1");
+map.put(5,"1");
+
+
+ConcurrentSkipListMap<Integer,String> map2=new ConcurrentSkipListMap<Integer,String>();
+map2.put(1,"1");
+map2.put(3,"1");
+map2.put(5,"1");
+System.out.println(map2.firstKey());
+System.out.println(map2.lastKey());
+
+
+String location="100820123";
+System.out.println(location.substring(0,6));
+System.out.println(location.substring(6));
+
+
+System.out.println(Long.valueOf("0000001"));
+Syntax error on token "sdfjsldkfjlsdfjlsdkfjsldkfjksdlfjlsdkfjaskljf", ) expectedSystem.out.println("sdfjsldkfjlsdfjlsdkfjsldkfjksdlfjlsdkfjaskljf;lsdjf;asjlfaslfjaslfjalsdfkjasldfjlsadkfjlsdkjflsdfjlsdfkjldskfjsadlfjksadfjlsdkfjlsdkjflsdkfjlsdkfjlsdkfjlsdfjasdfsdfsdfsdfdsfsfdfslkjdfsldjsflkjsflkdsjfdl".length());
+
+System.out.println(RandomStringUtils.randomAlphabetic(1024));
+
+
+
+
+List<Integer> list=new ArrayList<Integer>();
+for(int i=0;i<10;i++){
+	list.add(i);
+}
+int start=2;
+List<Integer> subList=list.subList(2,list.size());
+for(int i=0;i<subList.size();i++){
+	System.out.println(subList.get(i));
+}
+
+
+
+
+
+
+
+
+
